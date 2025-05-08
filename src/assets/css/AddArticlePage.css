@@ -1,0 +1,17 @@
+ h2 {
+    color: #a68069;
+  }
+  
+  .message {
+    color: #a68069;
+    font-weight: bold;
+  }
+  
+  .button {
+    background-color: #a68069;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #895b47;
+  }

@@ -1,0 +1,62 @@
+/* DemandeList.css */
+
+.demande-list {
+    max-width: 1000px;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .demande-list h3 {
+    margin-bottom: 20px;
+    color: #a68069;
+  }
+  
+  .demande-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .demande-table th,
+  .demande-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .demande-table th {
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+  }
+  
+  .demande-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .demande-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .badge {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    
+  }
+  
+  .etat-0 {
+    background-color: gray; 
+  }
+  
+  .etat-1 {
+    background-color: rgb(247, 103, 7); 
+  }
+  
+  .etat-5 {
+    background-color: rgb(66, 153, 225);
+  }
+  
+  .etat-9 {
+    background-color: rgb(47, 179, 68); 
+  }

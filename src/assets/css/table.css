@@ -1,0 +1,78 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    color: #6c757d;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 8px 12px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #f8f9fa;
+    border-color: #a68069;
+    color: #a68069;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #a68069;
+    border-color: #a68069;
+    color: white;
+  }
+  
+  .pagination .page-item.disabled .page-link {
+    color: #ced4da;
+    background-color: #fff;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th {
+    background-color:  #a68069;
+    color: white;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e9ecef;
+  }
+  .action-icon {
+    cursor: pointer;
+    color: #a68069; 
+    font-size: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .action-icon:hover {
+    background-color: #a68069;
+    color: #fff; 
+  }
+  .delete-icon {
+    cursor: pointer;
+    color: red; 
+    font-size: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .delete-icon:hover {
+    background-color: red;
+    color: #fff; 
+  }
+

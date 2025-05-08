@@ -1,0 +1,30 @@
+
+h2,h4 {
+    color: #a68069;
+  }
+  
+  .detail-entree-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #a68069;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 80%;
+  }
+  
+  .button {
+    margin-top: 10px;
+    background-color: #a68069;
+    border: none;
+  }
+  .add_button{
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: #895b47;
+  }
+  .delete_button{
+    margin-top: 20px;
+  }

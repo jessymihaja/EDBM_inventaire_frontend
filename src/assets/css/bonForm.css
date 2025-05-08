@@ -1,0 +1,16 @@
+.form-range {
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .range-values {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; /* Match the width of the range input */
+    margin-top: 5px;
+  }
+  
+  .range-value {
+    font-size: 12px;
+    color: #6c757d;
+  }

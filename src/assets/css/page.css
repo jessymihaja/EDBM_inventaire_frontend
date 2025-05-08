@@ -1,0 +1,40 @@
+.App{
+    margin: 15px;
+    position: relative;
+    min-height: 900px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px; 
+    border-radius: 3px;
+    background-color: white;
+    min-width: 80%;
+    margin-left: 15%;
+}
+
+.Error404{
+    margin-left: 260px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color:rgb(243, 234, 234);
+}
+.button_export{
+   color: #ff5722;
+    border:1px solid #ff5722;
+    margin-top:10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.button_export:hover{
+    color: white;
+    background-color:  #ff5722;
+    border: 1px solid white;
+    transition-duration: 700ms;
+}
+

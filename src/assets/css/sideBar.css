@@ -1,0 +1,102 @@
+
+.sidebar-container {
+  border-right: 2px   solid rgb(209, 203, 203);
+  margin-top: 87px;
+  width: 14%;
+  color: rgb(64, 61, 61);
+  background-color: #fefefe;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  color: rgb(157, 153, 153);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.nav-link-custom {
+  color: rgb(19, 17, 17) !important;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link-custom:hover {
+  background-color: #e9ecef;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  }
+
+.submenu {
+  padding-left: 20px;
+}
+
+.header-container {
+  padding-top: 6px;
+  padding-right: 20px;
+  background-color:#a68069;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 100%;
+  position: relative;
+}
+.header-tittle{
+  margin-right: 78%;  
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+.header-tittle h4{
+  color: white;
+}
+.header-logout {
+  color:white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.header-logout:hover {
+  color: #dc3545;
+}
+
+
+.content-container {  
+  padding: 20px;
+  background-color: #ffffff;
+}
+.header-logo {
+  margin-left: -40px;
+  width: 100px; 
+  height: auto;
+}
+#dropdown-avatar {
+  text-decoration: none; 
+  background: none;
+}
+
+#dropdown-avatar::after {
+  display: none;
+}
+
+.infoUser {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.infoUser span {
+  display: flex;
+  flex-direction: column; 
+  max-width: 120px;
+}

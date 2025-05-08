@@ -1,0 +1,36 @@
+.stock-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 1rem;
+    color: #95725c;
+  }
+  
+  .stock-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .stock-icon {
+    margin-right: 10px;
+    color: #a68069;
+    font-size: 1.1rem;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #a6806992;
+    width: 200px;
+  }
+  
+  .offcanvas-header {
+    background-color:#a68069;
+    border-bottom: 1px solid #dee2e6;
+    color: white;
+  }
+  
+  .offcanvas-body {
+    background-color: #ffffff;
+  }
