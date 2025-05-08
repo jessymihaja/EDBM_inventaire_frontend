@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.706a3ca3.css",
+    "main.js": "/static/js/main.af5ed464.js",
+    "static/js/453.e7581a77.chunk.js": "/static/js/453.e7581a77.chunk.js",
+    "static/media/logo-edbm-violet.png": "/static/media/logo-edbm-violet.432e32ddbfcf313c2a07.png",
+    "static/media/logo_presidence.png": "/static/media/logo_presidence.4d7ef52d77d5e685b7b8.png",
+    "index.html": "/index.html",
+    "main.706a3ca3.css.map": "/static/css/main.706a3ca3.css.map",
+    "main.af5ed464.js.map": "/static/js/main.af5ed464.js.map",
+    "453.e7581a77.chunk.js.map": "/static/js/453.e7581a77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.706a3ca3.css",
+    "static/js/main.af5ed464.js"
+  ]
+}
